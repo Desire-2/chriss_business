@@ -8,7 +8,7 @@ CORS(app)
 app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0 
 
 # OpenAI API key
-api_key = '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'
+api_key = ''
 openai.api_key = api_key
 
 # Serve static files from the 'static' directory
